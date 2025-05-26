@@ -1,0 +1,163 @@
+.main-div{
+    display: flex;
+    
+
+}
+
+.second-div{
+width: 36%;
+    place-items: center;
+    margin:    20px 70px 10px 70px;
+
+    
+    
+    
+}
+img{
+    width: 78%;
+    height: 660px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+margin-top: 25px;
+margin-left: 8px;
+position: relative;
+
+}
+.flowers{
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 527px;
+    color: white;
+    font-size: 50px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    
+    margin-top: 25px;
+}
+.email{
+    width: 98%;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    font-family: Afacad Flux, Helvetica, sans-serif;
+}
+.password{
+    width: 98%;
+    height: 35px;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    font-family: Afacad Flux, Helvetica, sans-serif;
+    
+}
+.p-word{
+    color: black;
+}
+.create{
+    padding: 10px 130px;
+    border: none;
+    font-family: Afacad Flux, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.login{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: black;
+    font-family: Afacad Flux, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.p-for-forgot{
+    margin-top: 10px;
+margin-bottom: 35px;
+    font-family: Afacad Flux, sans-serif;
+text-align: right;
+}
+
+.fa-facebook-f{
+color: #3b5998;
+}
+
+
+.p-for-create{
+    text-align: center;
+    margin-top: 55px;
+    font-family: Afacad Flux, sans-serif;
+    
+
+}
+.p-one{
+margin-bottom: 5px;
+font-family: Afacad Flux, Helvetica, sans-serif;
+
+}
+.p-two{
+margin-bottom: 5px;
+font-family: Afacad Flux, Helvetica, sans-serif;
+}
+.or{
+    text-align: center;
+    font-family: Afacad Flux, Helvetica, sans-serif;
+}
+.link{
+    display: flex;
+    gap: 25px;
+     font-family: Afacad Flux, Helvetica, sans-serif;
+     font-weight: 700;
+    margin-bottom: 50px;
+}
+.tags{
+    text-decoration: none;
+    color: black;
+}
+.a-tag{
+    border: 1px solid gainsboro;
+    width: 50%;
+    height: 35px;
+    text-align: center;
+    align-content: center;
+     font-family: Afacad Flux, Helvetica, sans-serif;
+     font-weight: 700;
+    
+    
+}
+.b-tag{
+    border: 1px solid gainsboro;
+    width: 50%;
+    text-align: center;
+    align-content: center;
+    
+}
+.img-2{
+    width: 70px;
+height: 70px;
+
+}
+.fa-google{
+
+/* color: rgba(255, 87, 51, 0.5); */
+color: rgba(205, 94, 50, 0.503);
+
+
+
+
+}
+.login:hover {
+    cursor: pointer;
+}
+
+.link:hover {
+    cursor: pointer;
+}
+.create:hover {
+    cursor: pointer;
+}
+.p-for-forgot:hover{
+    cursor: pointer;
+}
