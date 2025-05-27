@@ -14,7 +14,7 @@ width: 36%;
     
 }
 img{
-    width: 78%;
+    width: 83%;
     height: 660px;
     margin-right: 25px;
     margin-bottom: 25px;
@@ -40,6 +40,7 @@ h1{
 .email{
     width: 98%;
     height: 35px;
+    padding-right: 15px;
     margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid gainsboro;
@@ -58,7 +59,9 @@ h1{
     color: black;
 }
 .create{
-    padding: 10px 130px;
+    /* padding: 10px 130px; */
+    height: 40px;
+    width: 350px;
     border: none;
     font-family: Afacad Flux, Helvetica, sans-serif;
     font-size: 14px;
@@ -159,10 +162,4 @@ color: rgba(205, 94, 50, 0.503);
 }
 .p-for-forgot:hover{
     cursor: pointer;
-}
-
-@media screen and (max-width: 1300px) {
-.create {
-padding: 10px 140px;
-}
 }
