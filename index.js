@@ -1,8 +1,8 @@
 const form = document.querySelector("form")
 const email = document.querySelector(".email")
 const password = document.querySelector(".password");
-const button = document.querySelector(".login");
-
+const btn = document.querySelector(".login");
+const createButton = document.querySelector(".create")
 const correctEmail = "appclick@gmail.com";
 const correctPassword = "1234AppClick";
 
@@ -17,4 +17,8 @@ if (emailValue === correctEmail && passwordValue === correctPassword ){
 } else {
     alert("Incorrect username or password, Please try again.");
 }
+})
+
+createButton.addEventListener("click", function(event){
+    event.preventDefault()
 })

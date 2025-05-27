@@ -160,3 +160,9 @@ color: rgba(205, 94, 50, 0.503);
 .p-for-forgot:hover{
     cursor: pointer;
 }
+
+@media screen and (max-width: 1300px) {
+.create {
+padding: 10px 140px;
+}
+}
